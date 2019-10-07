@@ -2394,7 +2394,7 @@ PHP.Lexer = function(src, ini) {
 };
 
 
-PHP.Parser = function ( preprocessedTokens, eval ) {
+PHP.Parser = function ( preprocessedTokens, evaluate ) {
 
     var yybase = this.yybase,
     yydefault = this.yydefault,
@@ -2516,7 +2516,7 @@ PHP.Parser = function ( preprocessedTokens, eval ) {
                 this.yyastk[ this.stackPos ] = this.yyval;
                 attributeStack[ this.stackPos ] = this.startAttributes;
             } else {
-                if (eval !== true) {
+                if (evaluate !== true) {
 
                     var expected = [];
 
