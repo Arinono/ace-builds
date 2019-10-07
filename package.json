@@ -1,5 +1,5 @@
 {
-    "name": "story-ace-builds",
+    "name": "@storyscript/ace-builds",
     "main": "./src-noconflict/ace.js",
     "typings": "ace.d.ts",
     "version": "1.4.6",
