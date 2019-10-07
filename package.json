@@ -3,18 +3,19 @@
     "main": "./src-noconflict/ace.js",
     "typings": "ace.d.ts",
     "version": "1.4.6",
-    "description": "Ace (Ajax.org Cloud9 Editor)",
+    "private": false,
+    "description": "Ace (Ajax.org Cloud9 Editor) for Storyscript",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ajaxorg/ace-builds.git"
+        "url": "https://github.com/Arinono/ace-builds"
     },
-    "author": "",
+    "author": "Aurelien ARINO",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/ajaxorg/ace-builds/issues"
+        "url": "https://github.com/Arinono/ace-builds/issues"
     },
-    "homepage": "https://github.com/ajaxorg/ace-builds"
+    "homepage": "https://github.com/Arinono/ace-builds"
 }
